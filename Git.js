@@ -152,4 +152,24 @@ https缺点，每次登录的时候需要输入账号和密码(winds每次对你
 
 ssh: 企业里面比较推荐的一种方式，一次配置，终身使用(会有一些配置的步骤)
 
+
+master比较特殊，受: "Black Lives Matter", 缩写为“BLM"，黑人人权运动，意为“ 黑人的命也是命”影响
+2020年10月1号把名字改成了main
+
+推荐阅读: https : //blog.csdn.net/H176Nhx7/article/details/111350550
+
+git remote add origin https ://github. com/zlc1000/qdjy51.git
+    远程   添加
+origin译为:源;此处表示一个别名的意思
+上句命令的意思是:将本地仓库和远程仓库地址进行关联
+
+如何查看当前仓库关联的仓库是什么: git remote -v
+
+如果你关联的地址不是你想关联的，可以删掉: git remote remove origin
+
+git push -u origin main
+添加完远程仓库的关联之后，就要朝仓库进行推送了
+解释:如果是第一个提交到仓库的话，要写全了: -u表示是第一次提交 origin 是指明提交到哪个仓库 main 是表示朝这个仓库的哪个房间
+如果是第二次提交的话，只需要执行: git push 就好了
+
 */
